@@ -17,5 +17,8 @@ jobs:
         server-dir: ./public_html/cvsmia/
         exclude: |
          README.md
+         **/.git*
+         **/.git*/**
+         **/node_modules/**
         # dry-run: true
         # log-level: verbose
