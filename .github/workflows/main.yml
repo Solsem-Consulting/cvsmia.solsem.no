@@ -14,13 +14,8 @@ jobs:
         server: ftp.solsem.no
         username: solsemno
         password: ${{ secrets.ftp_password }}
-        server-dir: ./public_html/
+        server-dir: ./public_html/cvsmia/
         exclude: |
          README.md
-         **/.git*
-         **/.git*/**
-         **/node_modules/**
-         Web.config
-         solsem.no.sln
         # dry-run: true
         # log-level: verbose

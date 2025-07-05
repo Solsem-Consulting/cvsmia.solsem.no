@@ -1,0 +1,47 @@
+/* Reset noen grunnleggende marginer og padding for bedre konsistens på tvers av nettlesere */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Toppnivå overskrift */
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Konteiner for subdomener */
+#subdomains {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+    /* Liste med subdomener */
+    #subdomains ul {
+        list-style-type: none;
+    }
+
+    #subdomains li {
+        margin: 10px 0;
+        padding: 10px;
+        background-color: #f0f0f0;
+        border-radius: 3px;
+    }
+
+/* Feilmeldingstekst */
+.error {
+    color: red;
+}
